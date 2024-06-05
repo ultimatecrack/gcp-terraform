@@ -1,0 +1,15 @@
+Steps:
+1. Create github repo
+2. clone to local repo
+3. create tf configuration file
+    a. copy code snippet from https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
+    b. on cmd do 
+        - terraform init
+        - terraform plan (To authenticate the gcp run "gcloud auth application-default login")
+4. create service account in GCP
+5. create github secrete with SA key
+6. create github action workflow
+7. push code
+8. test pipeline
+
+
